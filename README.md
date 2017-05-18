@@ -1,5 +1,5 @@
 # Angular2-Sampl-App
 
+Angular 2 sample application.
 
-
-Get the github man....!
+This application displays the movie details.
