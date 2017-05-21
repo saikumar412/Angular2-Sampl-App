@@ -1,0 +1,49 @@
+<div class='panel panel-primary' *ngIf='movie'>
+    <div class='panel-heading' style='font-size:large'>
+        {{pageTitle + ': ' + movie.movieName}}
+    </div>
+
+    <div class='panel-body'>
+        <div class='row'>
+            <div class='col-md-6'>
+                <div class='row'>
+                    <div class='col-md-3'>Movie Name:</div>
+                    <div class='col-md-6'>{{movie.movieName}}</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-3'>Directed By:</div>
+                    <div class='col-md-6'>{{movie.directedBy}}</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-3'>Produced By:</div>
+                    <div class='col-md-6'>{{movie.producedBy}}</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-3'>ReleaseDate:</div>
+                    <div class='col-md-6'>{{movie.releaseDate}}</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-3'>Box Office:</div>
+                    <div class='col-md-6'>{{movie.boxOffice|currency:'USD':true}}</div>
+                </div>
+                <div class='row'>
+                    <div class='col-md-3'>IMDB Rating:</div>
+                    <div class='col-md-6'>
+                        <ai-star [rating]='movie.imdbRating' (ratingClicked)='onRatingClicked($event)'>
+                        </ai-star>
+                    </div>
+                </div>
+            </div>
+
+            <div class='col-md-6'>
+                <img class='center-block img-responsive' [style.width.px]='200' [style.margin.px]='2' [src]='movie.imageUrl' [title]='movie.movieName'>
+            </div>
+        </div>
+    </div>
+
+    <div class='panel-footer'>
+        <a class='btn btn-default' (click)='onBack()' style='width:80px'>
+            <i class='glyphicon glyphicon-chevron-left'></i> Back
+        </a>
+    </div>
+</div>

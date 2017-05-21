@@ -1,0 +1,41 @@
+[{
+        "movieId": 1,
+        "movieName": "Avatar",
+        "directedBy": "James Cameron",
+        "producedBy": "James Cameron, Jon Landau",
+        "releaseDate": "December 17, 2009",
+        "imdbRating": 4.8,
+        "boxOffice": "2.788",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_UY1200_CR90,0,630,1200_AL_.jpg"
+    },
+    {
+        "movieId": 2,
+        "movieName": "StarWars:The Force Awakens",
+        "directedBy": "J.J. Abrams",
+        "producedBy": "J. J. Abrams, Bryan Burk",
+        "releaseDate": "December 14, 2015",
+        "imdbRating": 4.2,
+        "boxOffice": "2.068",
+        "imageUrl": "http://vignette2.wikia.nocookie.net/starwars/images/f/fd/Star_Wars_Episode_VII_The_Force_Awakens.jpg/revision/latest?cb=20151018162823"
+    },
+    {
+        "movieId": 3,
+        "movieName": "The Fate of the Furious ",
+        "directedBy": "F. Gary Gray",
+        "producedBy": "Neal H. Moritz, Vin Diesel, Michael Fottrell, Chris Morgan",
+        "releaseDate": "April 14, 2017",
+        "imdbRating": 3.8,
+        "boxOffice": "1.213",
+        "imageUrl": "https://in.bmscdn.com/iedb/movies/images/website/poster/large/fast-and-furious-8--3d--et00041155-08-05-2017-13-53-13.jpg"
+    },
+    {
+        "movieId": 4,
+        "movieName": "Avengers: Age of Ultron ",
+        "directedBy": "Joss Whedon",
+        "producedBy": "Kevin Feige",
+        "releaseDate": "May 1, 2015",
+        "imdbRating": 4.0,
+        "boxOffice": "1.405",
+        "imageUrl": "https://static.comicvine.com/uploads/original/9/95970/4529344-dwv6bz2.jpg"
+    }
+]
