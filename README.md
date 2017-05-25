@@ -2,4 +2,4 @@
 
 Angular 2 sample application.
 
-This application displays the movie details.
+Sample application which displays Movie Details. 
